@@ -1,1 +1,48 @@
+name: Update live profile
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 4 * * *"
+  push:
+    branches:
+      - main
+    paths:
+      - "data/profile.json"
+      - "scripts/update_profile.py"
+      - ".github/workflows/update-live-profile.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  refresh-profile:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate verified live assets
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/update_profile.py
+
+      - name: Commit refreshed assets
+        run: |
+          if git diff --quiet; then
+            echo "No profile changes detected."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/live-stats.svg assets/activity.svg
+          git commit -m "chore: refresh live profile data"
+          git push
 
