@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="250" viewBox="0 0 1200 250">
+<defs>
+  <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#0D1320"/>
+    <stop offset="100%" stop-color="#101827"/>
+  </linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#9B7BFF"/>
+    <stop offset="100%" stop-color="#5FA8FF"/>
+  </linearGradient>
+  <filter id="softGlow">
+    <feGaussianBlur stdDeviation="4" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs>
+<rect x="1" y="1" width="1198" height="248" rx="18" fill="url(#panel)" stroke="#29344A" stroke-width="2"/>
+<rect x="34" y="32" width="5" height="185" rx="2.5" fill="url(#accent)"/>
+<text x="62" y="61" fill="#9B7BFF" font-family="Consolas,monospace" font-size="16" font-weight="700" text-anchor="start">SYSTEM IDENTITY</text>
+<text x="62" y="104" fill="#F5F7FB" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="34" font-weight="700" text-anchor="start">Abdulrehman Vohra</text>
+<text x="62" y="137" fill="#9AA6BC" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17" font-weight="400" text-anchor="start">Software Engineer • Full-Stack • Cloud • Intelligent Systems</text>
+<text x="62" y="188" fill="#D9B76E" font-family="Consolas,monospace" font-size="13" font-weight="700" text-anchor="start">CURRENT BUILD</text>
+<text x="62" y="216" fill="#F5F7FB" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17" font-weight="500" text-anchor="start">DevPulse — native desktop developer command centre</text>
+<text x="690" y="53" fill="#9AA6BC" font-family="Consolas,monospace" font-size="12" font-weight="700" text-anchor="start">LOCATION</text>
+<text x="690" y="78" fill="#F5F7FB" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17" font-weight="600" text-anchor="start">London, United Kingdom</text>
+<line x1="690" y1="92" x2="1150" y2="92" stroke="#29344A" stroke-width="1"/>
+<text x="690" y="112" fill="#9AA6BC" font-family="Consolas,monospace" font-size="12" font-weight="700" text-anchor="start">STATUS</text>
+<text x="690" y="137" fill="#F5F7FB" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17" font-weight="600" text-anchor="start">Open to graduate opportunities</text>
+<line x1="690" y1="151" x2="1150" y2="151" stroke="#29344A" stroke-width="1"/>
+<text x="690" y="171" fill="#9AA6BC" font-family="Consolas,monospace" font-size="12" font-weight="700" text-anchor="start">MODE</text>
+<text x="690" y="196" fill="#F5F7FB" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17" font-weight="600" text-anchor="start">Build • Deploy • Improve</text>
+</svg>

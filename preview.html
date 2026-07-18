@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Abdulrehman GitHub Profile Preview</title>
+  <style>
+    :root { color-scheme: dark; }
+    body {
+      margin: 0;
+      background:
+        radial-gradient(circle at 15% 8%, rgba(155,123,255,.16), transparent 30rem),
+        radial-gradient(circle at 85% 18%, rgba(95,168,255,.12), transparent 32rem),
+        #05070d;
+      color: #f5f7fb;
+      font-family: Inter, Segoe UI, Arial, sans-serif;
+    }
+    main { width: min(1200px, calc(100% - 30px)); margin: 28px auto 70px; }
+    img { display: block; width: 100%; height: auto; margin: 18px 0; }
+    h2 { margin: 40px 4px 14px; font-size: 20px; letter-spacing: .02em; }
+    .grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+    .grid img { margin: 0; }
+    .note {
+      margin: 18px 4px 4px;
+      color: #9aa6bc;
+      font-family: Consolas, monospace;
+      font-size: 13px;
+    }
+    @media (max-width: 760px) { .grid { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+<main>
+  <img src="assets/hero.gif" alt="">
+  <img src="assets/system-card.svg" alt="">
+  <h2>Featured systems</h2>
+  <div class="grid">
+    <img src="assets/project-sentinelx.svg" alt="">
+    <img src="assets/project-insightedge.svg" alt="">
+    <img src="assets/project-devpulse.svg" alt="">
+    <img src="assets/project-hymedia.svg" alt="">
+  </div>
+  <img src="assets/divider.svg" alt="">
+  <h2>Technical systems</h2>
+  <img src="assets/tech-stack.svg" alt="">
+  <h2>Live GitHub intelligence</h2>
+  <img src="assets/live-stats.svg" alt="">
+  <img src="assets/activity.svg" alt="">
+  <img src="assets/footer.svg" alt="">
+  <p class="note">Local visual preview. GitHub will use README.md.</p>
+</main>
+</body>
+</html>
