@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360">
+<defs>
+  <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#0D1320"/>
+    <stop offset="100%" stop-color="#101827"/>
+  </linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#9B7BFF"/>
+    <stop offset="100%" stop-color="#5FA8FF"/>
+  </linearGradient>
+  <filter id="softGlow">
+    <feGaussianBlur stdDeviation="4" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs>
+<rect x="1" y="1" width="1198" height="358" rx="18" fill="url(#panel)" stroke="#29344A" stroke-width="2"/>
+<text x="34" y="51" fill="#9B7BFF" font-family="Consolas,monospace" font-size="17" font-weight="700" text-anchor="start">TECHNICAL SYSTEMS</text>
+<text x="34" y="83" fill="#9AA6BC" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17" font-weight="400" text-anchor="start">A focused stack for building complete products—from edge hardware to cloud deployment.</text>
+<line x1="34" y1="103" x2="1166" y2="103" stroke="#29344A"/>
+<text x="36" y="139" fill="#D9B76E" font-family="Consolas,monospace" font-size="12" font-weight="700" text-anchor="start">LANGUAGES</text>
+<rect x="205" y="118" width="78" height="31" rx="8" fill="#070A12" stroke="#29344A"/>
+<text x="244.0" y="139" fill="#F5F7FB" font-family="Consolas,monospace" font-size="12" font-weight="500" text-anchor="middle">Python</text>
+<rect x="293" y="118" width="98" height="31" rx="8" fill="#070A12" stroke="#29344A"/>
+<text x="342.0" y="139" fill="#F5F7FB" font-family="Consolas,monospace" font-size="12" font-weight="500" text-anchor="middle">TypeScript</text>
+<rect x="401" y="118" width="98" height="31" rx="8" fill="#070A12" stroke="#29344A"/>
+<text x="450.0" y="139" fill="#F5F7FB" font-family="Consolas,monospace" font-size="12" font-weight="500" text-anchor="middle">JavaScript</text>
+<rect x="509" y="118" width="78" height="31" rx="8" fill="#070A12" stroke="#29344A"/>
+<text x="548.0" y="139" fill="#F5F7FB" font-family="Consolas,monospace" font-size="12" font-weight="500" text-anchor="middle">Java</text>
+<rect x="597" y="118" width="78" height="31" rx="8" fill="#070A12" stroke="#29344A"/>
+<text x="636.0" y="139" fill="#F5F7FB" font-family="Consolas,monospace" font-size="12" font-weight="500" text-anchor="middle">SQL</text>
+<rect x="685" y="118" width="78" height="31" rx="8" fill="#070A12" stroke="#29344A"/>
+<text x="724.0" y="139" fill="#F5F7FB" font-family="Consolas,monospace" font-size="12" font-weight="500" text-anchor="middle">Rust</text>
+<text x="36" y="187" fill="#D9B76E" font-family="Consolas,monospace" font-size="12" font-weight="700" text-anchor="start">FRONTEND</text>
+<rect x="205" y="166" width="78" height="31" rx="8" fill="#070A12" stroke="#29344A"/>
+<text x="244.0" y="187" fill="#F5F7FB" font-family="Consolas,monospace" font-size="12" font-weight="500" text-anchor="middle">React</text>
+<rect x="293" y="166" width="78" height="31" rx="8" fill="#070A12" stroke="#29344A"/>
+<text x="332.0" y="187" fill="#F5F7FB" font-family="Consolas,monospace" font-size="12" font-weight="500" text-anchor="middle">Angular</text>
+<rect x="381" y="166" width="78" height="31" rx="8" fill="#070A12" stroke="#29344A"/>
+<text x="420.0" y="187" fill="#F5F7FB" font-family="Consolas,monospace" font-size="12" font-weight="500" text-anchor="middle">Vite</text>
+<rect x="469" y="166" width="114" height="31" rx="8" fill="#070A12" stroke="#29344A"/>
+<text x="526.0" y="187" fill="#F5F7FB" font-family="Consolas,monospace" font-size="12" font-weight="500" text-anchor="middle">Tailwind CSS</text>
+<rect x="593" y="166" width="82" height="31" rx="8" fill="#070A12" stroke="#29344A"/>
+<text x="634.0" y="187" fill="#F5F7FB" font-family="Consolas,monospace" font-size="12" font-weight="500" text-anchor="middle">Recharts</text>
+<text x="36" y="235" fill="#D9B76E" font-family="Consolas,monospace" font-size="12" font-weight="700" text-anchor="start">BACKEND</text>
+<rect x="205" y="214" width="78" height="31" rx="8" fill="#070A12" stroke="#29344A"/>
+<text x="244.0" y="235" fill="#F5F7FB" font-family="Consolas,monospace" font-size="12" font-weight="500" text-anchor="middle">FastAPI</text>
+<rect x="293" y="214" width="90" height="31" rx="8" fill="#070A12" stroke="#29344A"/>
+<text x="338.0" y="235" fill="#F5F7FB" font-family="Consolas,monospace" font-size="12" font-weight="500" text-anchor="middle">REST APIs</text>
+<rect x="393" y="214" width="98" height="31" rx="8" fill="#070A12" stroke="#29344A"/>
+<text x="442.0" y="235" fill="#F5F7FB" font-family="Consolas,monospace" font-size="12" font-weight="500" text-anchor="middle">SQLAlchemy</text>
+<rect x="501" y="214" width="78" height="31" rx="8" fill="#070A12" stroke="#29344A"/>
+<text x="540.0" y="235" fill="#F5F7FB" font-family="Consolas,monospace" font-size="12" font-weight="500" text-anchor="middle">Node.js</text>
+<text x="36" y="283" fill="#D9B76E" font-family="Consolas,monospace" font-size="12" font-weight="700" text-anchor="start">CLOUD &amp; DEVOPS</text>
+<rect x="205" y="262" width="78" height="31" rx="8" fill="#070A12" stroke="#29344A"/>
+<text x="244.0" y="283" fill="#F5F7FB" font-family="Consolas,monospace" font-size="12" font-weight="500" text-anchor="middle">Azure</text>
+<rect x="293" y="262" width="78" height="31" rx="8" fill="#070A12" stroke="#29344A"/>
+<text x="332.0" y="283" fill="#F5F7FB" font-family="Consolas,monospace" font-size="12" font-weight="500" text-anchor="middle">Docker</text>
+<rect x="381" y="262" width="130" height="31" rx="8" fill="#070A12" stroke="#29344A"/>
+<text x="446.0" y="283" fill="#F5F7FB" font-family="Consolas,monospace" font-size="12" font-weight="500" text-anchor="middle">GitHub Actions</text>
+<rect x="521" y="262" width="78" height="31" rx="8" fill="#070A12" stroke="#29344A"/>
+<text x="560.0" y="283" fill="#F5F7FB" font-family="Consolas,monospace" font-size="12" font-weight="500" text-anchor="middle">Linux</text>
+<text x="36" y="331" fill="#D9B76E" font-family="Consolas,monospace" font-size="12" font-weight="700" text-anchor="start">DATA &amp; EDGE</text>
+<rect x="205" y="310" width="98" height="31" rx="8" fill="#070A12" stroke="#29344A"/>
+<text x="254.0" y="331" fill="#F5F7FB" font-family="Consolas,monospace" font-size="12" font-weight="500" text-anchor="middle">PostgreSQL</text>
+<rect x="313" y="310" width="78" height="31" rx="8" fill="#070A12" stroke="#29344A"/>
+<text x="352.0" y="331" fill="#F5F7FB" font-family="Consolas,monospace" font-size="12" font-weight="500" text-anchor="middle">MongoDB</text>
+<rect x="401" y="310" width="90" height="31" rx="8" fill="#070A12" stroke="#29344A"/>
+<text x="446.0" y="331" fill="#F5F7FB" font-family="Consolas,monospace" font-size="12" font-weight="500" text-anchor="middle">Cosmos DB</text>
+<rect x="501" y="310" width="146" height="31" rx="8" fill="#070A12" stroke="#29344A"/>
+<text x="574.0" y="331" fill="#F5F7FB" font-family="Consolas,monospace" font-size="12" font-weight="500" text-anchor="middle">Machine Learning</text>
+<rect x="657" y="310" width="78" height="31" rx="8" fill="#070A12" stroke="#29344A"/>
+<text x="696.0" y="331" fill="#F5F7FB" font-family="Consolas,monospace" font-size="12" font-weight="500" text-anchor="middle">Arduino</text>
+<rect x="745" y="310" width="114" height="31" rx="8" fill="#070A12" stroke="#29344A"/>
+<text x="802.0" y="331" fill="#F5F7FB" font-family="Consolas,monospace" font-size="12" font-weight="500" text-anchor="middle">Raspberry Pi</text>
+</svg>

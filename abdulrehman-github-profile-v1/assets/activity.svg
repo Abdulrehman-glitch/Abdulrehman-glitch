@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="225" viewBox="0 0 1200 225">
+<defs>
+  <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#0D1320"/>
+    <stop offset="100%" stop-color="#101827"/>
+  </linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#9B7BFF"/>
+    <stop offset="100%" stop-color="#5FA8FF"/>
+  </linearGradient>
+  <filter id="softGlow">
+    <feGaussianBlur stdDeviation="4" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs>
+<rect x="1" y="1" width="1198" height="223" rx="18" fill="url(#panel)" stroke="#29344A" stroke-width="2"/>
+<text x="34" y="50" fill="#5FA8FF" font-family="Consolas,monospace" font-size="17" font-weight="700" text-anchor="start">RECENT PUBLIC ACTIVITY</text>
+<text x="34" y="82" fill="#9AA6BC" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" font-weight="400" text-anchor="start">The workflow will replace this panel with your latest public GitHub events.</text>
+<circle cx="45" cy="114" r="5" fill="#75E6A4" fill-opacity="0.45"/>
+<text x="64" y="119" fill="#F5F7FB" font-family="Consolas,monospace" font-size="15" font-weight="500" text-anchor="start">Waiting for first telemetry sync</text>
+<circle cx="45" cy="148" r="5" fill="#75E6A4" fill-opacity="0.6"/>
+<text x="64" y="153" fill="#F5F7FB" font-family="Consolas,monospace" font-size="15" font-weight="500" text-anchor="start">Repository activity will appear here</text>
+<circle cx="45" cy="182" r="5" fill="#75E6A4" fill-opacity="0.75"/>
+<text x="64" y="187" fill="#F5F7FB" font-family="Consolas,monospace" font-size="15" font-weight="500" text-anchor="start">No third-party stats service required</text>
+</svg>

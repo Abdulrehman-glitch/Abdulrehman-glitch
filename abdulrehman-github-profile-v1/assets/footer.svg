@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="120" viewBox="0 0 1200 120">
+<defs>
+  <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#0D1320"/>
+    <stop offset="100%" stop-color="#101827"/>
+  </linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#9B7BFF"/>
+    <stop offset="100%" stop-color="#5FA8FF"/>
+  </linearGradient>
+  <filter id="softGlow">
+    <feGaussianBlur stdDeviation="4" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs>
+<rect x="1" y="1" width="1198" height="118" rx="18" fill="url(#panel)" stroke="#29344A" stroke-width="2"/>
+<text x="38" y="49" fill="#F5F7FB" font-family="Consolas,monospace" font-size="18" font-weight="600" text-anchor="start">while (alive) { learn(); build(); improve(); }</text>
+<text x="38" y="82" fill="#9AA6BC" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" font-weight="400" text-anchor="start">Designed as a live engineering profile—not a badge collection.</text>
+<text x="1160" y="69" fill="#D9B76E" font-family="Consolas,monospace" font-size="13" font-weight="700" text-anchor="end">ABDULREHMAN // 2026</text>
+</svg>

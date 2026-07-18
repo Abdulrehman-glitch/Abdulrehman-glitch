@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="570" height="275" viewBox="0 0 570 275">
+<defs>
+  <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#0D1320"/>
+    <stop offset="100%" stop-color="#101827"/>
+  </linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#9B7BFF"/>
+    <stop offset="100%" stop-color="#5FA8FF"/>
+  </linearGradient>
+  <filter id="softGlow">
+    <feGaussianBlur stdDeviation="4" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs>
+<rect x="1" y="1" width="568" height="273" rx="17" fill="url(#panel)" stroke="#29344A" stroke-width="2"/>
+<rect x="0" y="0" width="570" height="5" rx="2.5" fill="#9B7BFF"/>
+<circle cx="44" cy="52" r="15" fill="#9B7BFF" fill-opacity=".18" stroke="#9B7BFF"/>
+<path d="M37 52h14M44 45v14" stroke="#9B7BFF" stroke-width="2" stroke-linecap="round"/>
+<text x="72" y="58" fill="#F5F7FB" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="22" font-weight="700" text-anchor="start">SENTINELX</text>
+<rect x="453" y="34" width="92" height="31" rx="15" fill="#9B7BFF" fill-opacity=".14" stroke="#9B7BFF" stroke-opacity=".65"/>
+<text x="499.0" y="55" fill="#9B7BFF" font-family="Consolas,monospace" font-size="12" font-weight="700" text-anchor="middle">ACTIVE</text>
+<text x="32" y="107" fill="#9AA6BC" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" font-weight="400" text-anchor="start">Endpoint monitoring, incident response and intelligent</text>
+<text x="32" y="132" fill="#9AA6BC" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" font-weight="400" text-anchor="start">recovery with a trusted agent architecture.</text>
+<text x="32" y="190" fill="#9AA6BC" font-family="Consolas,monospace" font-size="12" font-weight="700" text-anchor="start">TECHNOLOGY</text>
+<rect x="32" y="205" width="75" height="31" rx="8" fill="#070A12" stroke="#29344A"/>
+<text x="69.5" y="226" fill="#F5F7FB" font-family="Consolas,monospace" font-size="12" font-weight="500" text-anchor="middle">FastAPI</text>
+<rect x="116" y="205" width="92" height="31" rx="8" fill="#070A12" stroke="#29344A"/>
+<text x="162.0" y="226" fill="#F5F7FB" font-family="Consolas,monospace" font-size="12" font-weight="500" text-anchor="middle">PostgreSQL</text>
+<rect x="217" y="205" width="75" height="31" rx="8" fill="#070A12" stroke="#29344A"/>
+<text x="254.5" y="226" fill="#F5F7FB" font-family="Consolas,monospace" font-size="12" font-weight="500" text-anchor="middle">React</text>
+<rect x="301" y="205" width="108" height="31" rx="8" fill="#070A12" stroke="#29344A"/>
+<text x="355.0" y="226" fill="#F5F7FB" font-family="Consolas,monospace" font-size="12" font-weight="500" text-anchor="middle">Python Agent</text>
+<text x="32" y="258" fill="#9B7BFF" font-family="Consolas,monospace" font-size="13" font-weight="700" text-anchor="start">VIEW REPOSITORY  →</text>
+</svg>

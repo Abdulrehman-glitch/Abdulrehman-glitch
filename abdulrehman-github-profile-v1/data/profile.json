@@ -1,0 +1,65 @@
+{
+  "username": "Abdulrehman-glitch",
+  "display_name": "Abdulrehman Vohra",
+  "headline": "Software Engineer \u2022 Full-Stack \u2022 Cloud \u2022 Intelligent Systems",
+  "location": "London, United Kingdom",
+  "status": "Open to graduate opportunities",
+  "currently_building": "DevPulse \u2014 native desktop developer command centre",
+  "email": "ADD_YOUR_EMAIL",
+  "linkedin": "ADD_YOUR_LINKEDIN_URL",
+  "portfolio": "COMING_SOON",
+  "projects": [
+    {
+      "name": "SENTINELX",
+      "status": "ACTIVE",
+      "summary": "Endpoint monitoring, incident response and intelligent recovery with a trusted agent architecture.",
+      "stack": [
+        "FastAPI",
+        "PostgreSQL",
+        "React",
+        "Python Agent"
+      ],
+      "url": "https://github.com/Abdulrehman-glitch?tab=repositories",
+      "accent": "#9B7BFF"
+    },
+    {
+      "name": "INSIGHTEDGE",
+      "status": "ACTIVE",
+      "summary": "Industrial predictive-maintenance platform combining edge sensing, machine learning and live telemetry.",
+      "stack": [
+        "Python",
+        "Machine Learning",
+        "Arduino",
+        "Raspberry Pi"
+      ],
+      "url": "https://github.com/Abdulrehman-glitch?tab=repositories",
+      "accent": "#5FA8FF"
+    },
+    {
+      "name": "DEVPULSE",
+      "status": "BUILDING",
+      "summary": "Installable native desktop software for developer visibility, local services and future SaaS expansion.",
+      "stack": [
+        "Tauri",
+        "Rust",
+        "Python",
+        "TypeScript"
+      ],
+      "url": "https://github.com/Abdulrehman-glitch/DevPulse",
+      "accent": "#D9B76E"
+    },
+    {
+      "name": "HYMEDIA",
+      "status": "DEPLOYED",
+      "summary": "Cloud-native media platform using managed Azure storage, database services and application hosting.",
+      "stack": [
+        "Azure",
+        "Cosmos DB",
+        "Blob Storage",
+        "App Service"
+      ],
+      "url": "https://github.com/Abdulrehman-glitch?tab=repositories",
+      "accent": "#75D7F0"
+    }
+  ]
+}

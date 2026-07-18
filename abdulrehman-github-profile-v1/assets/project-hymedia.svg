@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="570" height="275" viewBox="0 0 570 275">
+<defs>
+  <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#0D1320"/>
+    <stop offset="100%" stop-color="#101827"/>
+  </linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#9B7BFF"/>
+    <stop offset="100%" stop-color="#5FA8FF"/>
+  </linearGradient>
+  <filter id="softGlow">
+    <feGaussianBlur stdDeviation="4" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs>
+<rect x="1" y="1" width="568" height="273" rx="17" fill="url(#panel)" stroke="#29344A" stroke-width="2"/>
+<rect x="0" y="0" width="570" height="5" rx="2.5" fill="#75D7F0"/>
+<circle cx="44" cy="52" r="15" fill="#75D7F0" fill-opacity=".18" stroke="#75D7F0"/>
+<path d="M37 52h14M44 45v14" stroke="#75D7F0" stroke-width="2" stroke-linecap="round"/>
+<text x="72" y="58" fill="#F5F7FB" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="22" font-weight="700" text-anchor="start">HYMEDIA</text>
+<rect x="433" y="34" width="112" height="31" rx="15" fill="#75D7F0" fill-opacity=".14" stroke="#75D7F0" stroke-opacity=".65"/>
+<text x="489.0" y="55" fill="#75D7F0" font-family="Consolas,monospace" font-size="12" font-weight="700" text-anchor="middle">DEPLOYED</text>
+<text x="32" y="107" fill="#9AA6BC" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" font-weight="400" text-anchor="start">Cloud-native media platform using managed Azure storage,</text>
+<text x="32" y="132" fill="#9AA6BC" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" font-weight="400" text-anchor="start">database services and application hosting.</text>
+<text x="32" y="190" fill="#9AA6BC" font-family="Consolas,monospace" font-size="12" font-weight="700" text-anchor="start">TECHNOLOGY</text>
+<rect x="32" y="205" width="75" height="31" rx="8" fill="#070A12" stroke="#29344A"/>
+<text x="69.5" y="226" fill="#F5F7FB" font-family="Consolas,monospace" font-size="12" font-weight="500" text-anchor="middle">Azure</text>
+<rect x="116" y="205" width="84" height="31" rx="8" fill="#070A12" stroke="#29344A"/>
+<text x="158.0" y="226" fill="#F5F7FB" font-family="Consolas,monospace" font-size="12" font-weight="500" text-anchor="middle">Cosmos DB</text>
+<rect x="209" y="205" width="108" height="31" rx="8" fill="#070A12" stroke="#29344A"/>
+<text x="263.0" y="226" fill="#F5F7FB" font-family="Consolas,monospace" font-size="12" font-weight="500" text-anchor="middle">Blob Storage</text>
+<rect x="326" y="205" width="100" height="31" rx="8" fill="#070A12" stroke="#29344A"/>
+<text x="376.0" y="226" fill="#F5F7FB" font-family="Consolas,monospace" font-size="12" font-weight="500" text-anchor="middle">App Service</text>
+<text x="32" y="258" fill="#75D7F0" font-family="Consolas,monospace" font-size="13" font-weight="700" text-anchor="start">VIEW REPOSITORY  →</text>
+</svg>
