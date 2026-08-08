@@ -11,20 +11,20 @@
 <circle cx="47" cy="118" r="8" fill="#75E6A4" fill-opacity=".18" stroke="#75E6A4"/>
 <text x="70" y="122" fill="#F5F7FB" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="600" text-anchor="start">Pushed 0 commits</text>
 <text x="445" y="122" fill="#9AA6BC" font-family="Consolas,monospace" font-size="14" font-weight="500" text-anchor="start">InsightEdge</text>
-<text x="1158" y="122" fill="#9AA6BC" font-family="Consolas,monospace" font-size="13" font-weight="500" text-anchor="end">3h ago</text>
+<text x="1158" y="122" fill="#9AA6BC" font-family="Consolas,monospace" font-size="13" font-weight="500" text-anchor="end">5h ago</text>
 <line x1="70" y1="139" x2="1158" y2="139" stroke="#29344A"/>
 <circle cx="47" cy="157" r="8" fill="#9B7BFF" fill-opacity=".18" stroke="#9B7BFF"/>
 <text x="70" y="161" fill="#F5F7FB" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="600" text-anchor="start">Pushed 0 commits</text>
 <text x="445" y="161" fill="#9AA6BC" font-family="Consolas,monospace" font-size="14" font-weight="500" text-anchor="start">InsightEdge</text>
-<text x="1158" y="161" fill="#9AA6BC" font-family="Consolas,monospace" font-size="13" font-weight="500" text-anchor="end">4h ago</text>
+<text x="1158" y="161" fill="#9AA6BC" font-family="Consolas,monospace" font-size="13" font-weight="500" text-anchor="end">1d ago</text>
 <line x1="70" y1="178" x2="1158" y2="178" stroke="#29344A"/>
 <circle cx="47" cy="196" r="8" fill="#5FA8FF" fill-opacity=".18" stroke="#5FA8FF"/>
-<text x="70" y="200" fill="#F5F7FB" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="600" text-anchor="start">Starred repository</text>
-<text x="445" y="200" fill="#9AA6BC" font-family="Consolas,monospace" font-size="14" font-weight="500" text-anchor="start">PARTHA</text>
-<text x="1158" y="200" fill="#9AA6BC" font-family="Consolas,monospace" font-size="13" font-weight="500" text-anchor="end">3d ago</text>
+<text x="70" y="200" fill="#F5F7FB" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="600" text-anchor="start">Pushed 0 commits</text>
+<text x="445" y="200" fill="#9AA6BC" font-family="Consolas,monospace" font-size="14" font-weight="500" text-anchor="start">InsightEdge</text>
+<text x="1158" y="200" fill="#9AA6BC" font-family="Consolas,monospace" font-size="13" font-weight="500" text-anchor="end">1d ago</text>
 <line x1="70" y1="217" x2="1158" y2="217" stroke="#29344A"/>
 <circle cx="47" cy="235" r="8" fill="#D9B76E" fill-opacity=".18" stroke="#D9B76E"/>
-<text x="70" y="239" fill="#F5F7FB" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="600" text-anchor="start">Pushed 0 commits</text>
-<text x="445" y="239" fill="#9AA6BC" font-family="Consolas,monospace" font-size="14" font-weight="500" text-anchor="start">InsightEdge</text>
-<text x="1158" y="239" fill="#9AA6BC" font-family="Consolas,monospace" font-size="13" font-weight="500" text-anchor="end">8d ago</text>
+<text x="70" y="239" fill="#F5F7FB" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="600" text-anchor="start">Starred repository</text>
+<text x="445" y="239" fill="#9AA6BC" font-family="Consolas,monospace" font-size="14" font-weight="500" text-anchor="start">PARTHA</text>
+<text x="1158" y="239" fill="#9AA6BC" font-family="Consolas,monospace" font-size="13" font-weight="500" text-anchor="end">4d ago</text>
 </svg>
